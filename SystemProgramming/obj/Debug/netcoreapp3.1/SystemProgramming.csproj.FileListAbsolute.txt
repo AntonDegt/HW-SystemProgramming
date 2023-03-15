@@ -29,3 +29,7 @@ C:\Users\qultv\source\repos\SystemProgramming\SystemProgramming\obj\Debug\netcor
 C:\Users\qultv\source\repos\SystemProgramming\SystemProgramming\obj\Debug\netcoreapp3.1\SystemProgramming.genruntimeconfig.cache
 C:\Users\qultv\source\repos\SystemProgramming\SystemProgramming\obj\Debug\netcoreapp3.1\MultiWindow.g.cs
 C:\Users\qultv\source\repos\SystemProgramming\SystemProgramming\obj\Debug\netcoreapp3.1\MultiWindow.baml
+C:\Users\qultv\source\repos\SystemProgramming\SystemProgramming\obj\Debug\netcoreapp3.1\SynchroWindow.g.cs
+C:\Users\qultv\source\repos\SystemProgramming\SystemProgramming\obj\Debug\netcoreapp3.1\SynchroWindow.baml
+C:\Users\qultv\source\repos\SystemProgramming\SystemProgramming\obj\Debug\netcoreapp3.1\TaskWindow.g.cs
+C:\Users\qultv\source\repos\SystemProgramming\SystemProgramming\obj\Debug\netcoreapp3.1\TaskWindow.baml

@@ -34,5 +34,15 @@ namespace SystemProgramming
         {
             new MultiWindow().ShowDialog();
         }
+
+        private void TaskButton_Click(object sender, RoutedEventArgs e)
+        {
+            new TaskWindow().ShowDialog();
+        }
+
+        private void SynchroButton_Click(object sender, RoutedEventArgs e)
+        {
+            new SynchroWindow().ShowDialog();
+        }
     }
 }

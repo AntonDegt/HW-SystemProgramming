@@ -5,15 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SystemProgramming"
         mc:Ignorable="d"
-        Title="MainWindow" Height="400" Width="600">
+        Title="MainWindow" Height="600" Width="400">
 
     <StackPanel>
         <Label Margin="20" FontSize="32" FontWeight="Light"
                HorizontalContentAlignment="Center">Системное программирование</Label>
-        <Button Height="80" Margin="20" FontSize="26" Background="LightSeaGreen" Foreground="White"
+        <Button Height="80" Margin="20 5" FontSize="26" Background="LightSeaGreen" Foreground="White"
             x:Name="ThreadingButton" Click="ThreadingButton_Click">Многопоточность</Button>
-        <Button Height="80" Margin="20" FontSize="26" Background="LightSeaGreen" Foreground="White"
+        <Button Height="80" Margin="20 5" FontSize="26" Background="LightSeaGreen" Foreground="White"
             x:Name="MultiThreadingButton" Click="MultiThreadingButton_Click">Синхронизация</Button>
+        <Button Height="80" Margin="20 5" FontSize="26" Background="LightSeaGreen" Foreground="White"
+            x:Name="TaskButton" Click="TaskButton_Click">Многозадачность</Button>
+        <Button Height="80" Margin="20 5" FontSize="26" Background="LightSeaGreen" Foreground="White"
+            x:Name="SynchroButton" Click="SynchroButton_Click">Объектыы синхронизации</Button>
     </StackPanel>
     
 </Window>

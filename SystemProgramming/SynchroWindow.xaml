@@ -1,0 +1,53 @@
+﻿<Window x:Class="SystemProgramming.SynchroWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SystemProgramming"
+        mc:Ignorable="d"
+        Title="SynchroWindow" Height="500" Width="600">
+    
+    <Grid ShowGridLines="True">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0" Margin="5">
+            <Label FontWeight="Bold" FontSize="24">Synhronization object</Label>
+            
+            <Label FontSize="18">1. Lock</Label>
+            <StackPanel Orientation="Horizontal">
+                <Button FontSize="18" Padding="10 5"
+                    Name="ButtonStart1" Click="ButtonStart1_Click">Start</Button>
+            </StackPanel>
+
+
+            <Label FontSize="18" Margin="0 10 0 0">2. Monitor</Label>
+            <StackPanel Orientation="Horizontal">
+                <Button FontSize="18" Padding="10 5"
+                    Name="ButtonStart2" Click="ButtonStart2_Click">Start</Button>
+            </StackPanel>
+
+            <Label FontSize="18" Margin="0 10 0 0">3. Mutex</Label>
+            <StackPanel Orientation="Horizontal">
+                <Button FontSize="18" Padding="10 5"
+                    Name="ButtonStart3" Click="ButtonStart3_Click">Start</Button>
+            </StackPanel>
+
+            <Label FontSize="18" Margin="0 10 0 0">4. EventWaitHandle</Label>
+            <StackPanel Orientation="Horizontal">
+                <Button FontSize="18" Padding="10 5"
+                    Name="ButtonStart4" Click="ButtonStart4_Click">Start</Button>
+            </StackPanel>
+
+            <Label FontSize="18" Margin="0 10 0 0">5. Semaphore</Label>
+            <StackPanel Orientation="Horizontal">
+                <Button FontSize="18" Padding="10 5"
+                    Name="ButtonStart5" Click="ButtonStart5_Click">Start</Button>
+            </StackPanel>
+        </StackPanel>
+
+        <TextBlock Grid.Column="1" Name="ConcoleBlock" FontSize="16" Padding="5"/>
+    </Grid>
+</Window>

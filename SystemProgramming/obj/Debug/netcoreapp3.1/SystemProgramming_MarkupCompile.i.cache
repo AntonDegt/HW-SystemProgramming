@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\qultv\source\repos\SystemProgramming\SystemProgramming\App.xaml
-3-1326065305
+5-261742882
 
-7-1041091016
+9-1089154100
 193-667098205
-MainWindow.xaml;MultiWindow.xaml;ThreadingWindow.xaml;
+MainWindow.xaml;MultiWindow.xaml;SynchroWindow.xaml;TaskWindow.xaml;ThreadingWindow.xaml;
 
-True
+False
 
