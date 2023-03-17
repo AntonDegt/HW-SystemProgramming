@@ -208,7 +208,7 @@ namespace SystemProgramming
         }
         private async Task Percent4()
         {
-            month++;
+            month++; 
             Sum *= 1.1f; // +10%
 
             ConsoleWrite($"Month {month}: {Sum}\n");

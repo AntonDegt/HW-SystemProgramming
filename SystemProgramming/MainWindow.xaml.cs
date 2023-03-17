@@ -44,5 +44,10 @@ namespace SystemProgramming
         {
             new SynchroWindow().ShowDialog();
         }
+
+        private void ProcessButton_Click(object sender, RoutedEventArgs e)
+        {
+            new ProcessWindow().ShowDialog();
+        }
     }
 }

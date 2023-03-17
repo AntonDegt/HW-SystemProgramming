@@ -18,6 +18,8 @@
             x:Name="TaskButton" Click="TaskButton_Click">Многозадачность</Button>
         <Button Height="80" Margin="20 5" FontSize="26" Background="LightSeaGreen" Foreground="White"
             x:Name="SynchroButton" Click="SynchroButton_Click">Объектыы синхронизации</Button>
+        <Button Height="80" Margin="20 5" FontSize="26" Background="LightSeaGreen" Foreground="White"
+            x:Name="ProcessButton" Click="ProcessButton_Click">Процессы</Button>
     </StackPanel>
     
 </Window>
