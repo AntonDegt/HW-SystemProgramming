@@ -27,27 +27,7 @@ namespace SystemProgramming
 
         private void ThreadingButton_Click(object sender, RoutedEventArgs e)
         {
-            new ThreadingWindow().ShowDialog();
-        }
 
-        private void MultiThreadingButton_Click(object sender, RoutedEventArgs e)
-        {
-            new MultiWindow().ShowDialog();
-        }
-
-        private void TaskButton_Click(object sender, RoutedEventArgs e)
-        {
-            new TaskWindow().ShowDialog();
-        }
-
-        private void SynchroButton_Click(object sender, RoutedEventArgs e)
-        {
-            new SynchroWindow().ShowDialog();
-        }
-
-        private void ProcessButton_Click(object sender, RoutedEventArgs e)
-        {
-            new ProcessWindow().ShowDialog();
         }
     }
 }
