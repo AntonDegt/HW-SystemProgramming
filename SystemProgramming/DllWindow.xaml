@@ -1,0 +1,35 @@
+﻿<Window x:Class="SystemProgramming.DllWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SystemProgramming"
+        mc:Ignorable="d"
+        Title="DllWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <ScrollViewer Grid.Column="2" >
+            <TextBlock x:Name="Console"/>
+        </ScrollViewer>
+
+        <StackPanel>
+            <Label FontSize="24">User32.dll</Label>
+            <Button x:Name="MsgA" Click="MsgA_Click" Margin="5" Padding="2" FontSize="16">Message A</Button>
+            <Button x:Name="MsgW" Click="MsgW_Click" Margin="5" Padding="2" FontSize="16">Message W</Button>
+            <Button x:Name="Msg1" Click="Msg1_Click" Margin="5" Padding="2" FontSize="16">Message 1</Button>
+            <Button x:Name="Error" Click="ErrorAlart_Click" Margin="5" Padding="2" FontSize="16">Error</Button>
+            
+            <Label FontSize="24">Д/З Kernel32.dll</Label>
+            <Button x:Name="BeepThread1" Click="BeepThread1_Click" Margin="5" Padding="2" FontSize="16">1000</Button>
+            <Button x:Name="BeepThread2" Click="BeepThread2_Click" Margin="5" Padding="2" FontSize="16">500</Button>
+            
+            <Label FontSize="24">Kernel32.dll</Label>
+            <Button x:Name="ThreadB" Click="ThreadB_Click" Margin="5" Padding="2" FontSize="16">new Thread</Button>
+        </StackPanel>
+
+    </Grid>
+</Window>
